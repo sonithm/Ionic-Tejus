@@ -1,0 +1,39 @@
+<ion-navbar *navbar primary hideBackButton="false">
+  <ion-buttons>
+    <button>
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+  </ion-buttons>
+
+  <ion-buttons end>
+    <button>
+      <ion-icon name="checkmark"></ion-icon>
+      Save
+    </button>
+  </ion-buttons>
+</ion-navbar>
+
+<ion-content padding id="welcome">
+    <div class="signup">
+        <div id="signup">
+            <div class="signup-screen">
+                <form class="form-register" method="post" name="register" novalidate>
+                    <h1 class="space-bot"> Gift a smile, Gift a drop </h1>
+                    <img src="assets/imgs/tejus.png" class="logo" />
+                    <div class="divider"></div>
+                    <h4>Your Blood-Their Life Who Knows One Day It'll Be Their Blood-Your Life</h4>
+                    <div class="divider"></div>
+
+                    <button ion-button block outline class="marginTop waves-effect waves-light  done" (click)="login()">
+                Login
+               </button>
+                    <button ion-button style="background-color: transparent;color:#df405a;border-color:#df405a;border:1px solid #df405a;margin-top:20px;height: 35px;font-size: 14px;"
+                        block outline class="waves-effect waves-light cancel" (click)="signup()">
+                Signup</button>
+
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</ion-content>

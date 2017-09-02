@@ -1,0 +1,32 @@
+<ion-content padding id="login">
+  <div class="signup">
+    <div id="signup">
+      <div class="signup-screen">
+        <img src="assets/imgs/tejus.png" class="" />
+        <div class="space-bot text-center">
+          <h1>SIGN IN</h1>
+       
+        </div>
+        <form class="form-register" method="post" name="register" novalidate>
+          <div class="input-field col s6">
+            <input id="first-name" type="text" class="validate" required>
+            <label for="first-name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="password" type="password" name="password" ng-model="password" ng-minlength='6' class="validate" required>
+            <label for="password">Password</label>
+          </div>
+          <div class="space-top text-center">
+               <button ion-button block type="button" class="waves-effect waves-light done" (click)="login()">
+               <i class="material-icons left">done</i>Login
+               </button>
+          </div>
+          <div class="space-top text-center">
+            <div text-center style="text-decoration: underline;margin-top:20px;color:#6dc793;;font-size: 14px;"  (click)="forgotPwd()">Forgot Password</div>
+              
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

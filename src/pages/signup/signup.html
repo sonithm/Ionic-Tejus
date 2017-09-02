@@ -1,0 +1,77 @@
+<ion-content padding id="signup">
+  <div class="signup">
+    <div id="signup">
+      <div class="signup-screen">
+        <div class="space-bot text-center">
+          <h1>Registration</h1>
+          <div>Enter your Personal details below to proceed</div>
+
+        </div>
+        <form class="form-register" method="post" name="register" novalidate>
+
+
+          <div class="input-field col s6">
+            <input id="first-name" type="text" class="validate" required>
+            <label for="first-name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last-name" type="text" class="validate" required>
+            <label for="last-name">Last Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="email" type="email" name="email" ng-model="email" class="validate" required>
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="mobile" type="tel" name="mobile" ng-model="mobile" class="validate" required>
+            <label for="mobile">Mobile</label>
+          </div>
+          <div class="input-field col s6">
+            <ion-datetime id="dob" displayFormat="MMM DD YYYY"></ion-datetime>
+            <label for="dob">DOB</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="password" type="password" name="password" ng-model="password" ng-minlength='6' class="validate" required>
+            <label for="password">Password</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="password" type="password" name="Confirm password" ng-model="password" ng-minlength='6' class="validate" required>
+            <label for="password">Confirm Password</label>
+          </div>
+          <div class="input-field col s6">
+            <ion-list>
+              <ion-item>
+                <ion-label>Gender</ion-label>
+                <ion-select ng-model="Gender">
+                  <ion-option value="M">Male</ion-option>
+                  <ion-option value="F">Female</ion-option>
+                </ion-select>
+              </ion-item>
+            </ion-list>
+            <ion-list>
+              <ion-item>
+                <ion-label>Blood Group</ion-label>
+                <ion-select ng-model="BGroup">
+                  <ion-option value="A+">A+</ion-option>
+                  <ion-option value="A-">A-</ion-option>
+                  <ion-option value="AB+">AB+</ion-option>
+                  <ion-option value="AB-">AB-</ion-option>
+                  <ion-option value="O+">O+</ion-option>
+                  <ion-option value="O-">O-</ion-option>
+                </ion-select>
+              </ion-item>
+            </ion-list>
+          </div>
+
+          <div class="text-center">
+            <button ion-button round ng-disabled="form-register.$invalid" class="waves-effect waves-light  done">
+               <i class="material-icons left">done</i> Register
+               </button>
+            <button ion-button round ng-disabled="form-register.$invalid" class="waves-effect waves-light cancel">
+                 <i class="material-icons left">clear</i>Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

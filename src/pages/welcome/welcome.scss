@@ -1,0 +1,142 @@
+page-welcome {
+#welcome{
+   
+     background-color: white;
+      padding: 25px;
+    border-radius: 5px;
+  
+    box-shadow: 0 1px 6px rgba(0,0,0,.3);
+    color: white;
+    .marginTop{
+        margin-top:150px;
+      color: #df405a;
+    }
+
+.text-center{
+color: #df405a;
+  text-align: center;
+}
+
+.space-bot{
+  margin-bottom: 35px;
+}
+
+.space-top{
+  margin-top: 35px;
+}
+
+/* Title */
+
+h1 {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 25px;
+    color: #df405a;
+    text-align: center;
+}
+h1 {    
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: #df405a;
+}
+h4 {
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+        color: #df405a;
+}
+
+img {   
+     display: block;
+     margin: auto;
+     padding-bottom: 2cm;
+     	text-align: center;
+}
+/* Sign Up */
+
+.container {
+  
+}
+
+.alert-danger{
+	text-align: center;
+}
+
+.signup-screen {
+
+	  padding: 5px;
+    border-radius: 10px;
+    background: white;
+    
+    color: white;
+}
+
+.btn{
+  border-radius: 2px;
+}
+
+.cancel{
+  background-color: #df405a;
+}
+.ion-header{
+  background-color: #df405a;
+}
+
+.done{
+  background-color: #5CAB7D;
+}
+
+.done:hover{
+  background-color: #6dc793;
+}
+
+.done:focus{
+  background-color: #6dc793;
+}
+
+.cancel:hover{
+  background-color: #f0435f;
+}
+
+.cancel:focus{
+  background-color: #f0435f;
+}
+
+.input-group {
+    width:100%;
+}
+
+.input-group .ng-invalid {
+    border: 2px solid #e74c3c;
+    border-radius: 3px;
+    color: #df405a;
+}
+
+/* Error Box */
+
+.alert{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  border-color: #e85a71;
+  background-color:  #e85a71;
+  color: white;
+  
+}
+
+.help-block {
+    font-size: 12px;
+    color: white
+}
+
+.logo{
+    height: 150px;
+    	text-align: center;
+}
+    
+}
+}
